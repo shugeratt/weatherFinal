@@ -67,7 +67,7 @@ class _WeatherScreenState extends State<WeatherScreen> {
           BackdropFilter(
             filter: ImageFilter.blur(sigmaX: 3.0, sigmaY: 3.0),
             child: Container(
-              color: Colors.black.withOpacity(0.3),  // overlay تیره برای بهتر دیده شدن متن
+              color: Colors.black.withOpacity(0.3),  
             ),
           ),
           // Main content
